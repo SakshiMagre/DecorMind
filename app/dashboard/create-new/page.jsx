@@ -510,7 +510,7 @@ function CreateNew() {
             </Button>
             
             {/* Credit Info */}
-            <p className="text-center text-sm text-gray-500 mt-3">
+            <p className="text-center text-sm text-gray-500 mt-3 mb-5">
               Current Balance: <span className="font-bold text-[#6a452e]">{userDetail?.credits || 0}</span> credits
             </p>
           </div>
